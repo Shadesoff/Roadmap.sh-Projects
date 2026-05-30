@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 1.25rem;
+}
+.testimonial-top-section {
+    display: flex;
+    justify-content: center;
+}
+/* Testimonial Card One */
+.testimonial-card-one blockquote {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 50px;
+    height: 200px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.testimonial-card-one blockquote p:last-child {
+    line-height: 3;
+}
+.testimonial-card-one img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.testimonial-card-one .user{
+    display: flex;
+    margin-left: 60px;
+}
+.testimonial-card-one .user h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.testimonial-card-one .user p {
+    display: flex;
+    align-items: center ;
+    margin-left: -160px;
+    margin-top: 20px;
+    color: #535353;
+}   
+/* Testimonial Card Two */
+.testimonial-card-two blockquote {
+    background-color: #fff;
+    margin: 50px;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.testimonial-card-two img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.testimonial-card-two .user{
+    display: flex;
+    margin-top: 80px;
+}
+.testimonial-card-two .user h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.testimonial-card-two .user p {
+    display: flex;
+    align-items: center ;
+    margin-left: -180px;
+    margin-top: 20px;
+    color: #535353;
+}   
+/* Testimonial Middle Section */
+.testimonial-middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.testimonial-middle-section img:first-child {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.testimonial-middle-section blockquote {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 500px;
+}
+.testimonial-middle-section blockquote img {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 20px;
+    margin-top: -50px;
+    margin-bottom: -100px;
+}
+.testimonial-middle-section blockquote h3 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 1.8rem;
+}
+.testimonial-middle-section blockquote p:first-of-type {
+    color: #979797;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.testimonial-middle-section blockquote p:last-child {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 1.5rem;
+}
+/* Testimonial Bottom Section*/
+.testimonial-bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonial-bottom-section blockquote {
+    padding: 40px;
+    border-radius: 20px;
+    border: 20px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    color: #535353;
+    height: 400px;
+    width: 1120px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.testimonial-bottom-section-image {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.testimonial-bottom-section-image img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.testimonial-bottom-section-image img:first-child, img:last-child {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.testimonial-bottom-section-image-text {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+    margin-left: -20px;
+}
+
+.btn {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    margin-right: -470px;
+    margin-top: 110px;
+}
+
+.btn button {
+  all: unset;
+  cursor: pointer;
+  height:  50px;
+  width: 50px;
+  font-size: 40px;
+  margin-right: 480px;
+}
