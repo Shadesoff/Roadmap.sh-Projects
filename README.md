@@ -7,3 +7,5 @@ https://roadmap.sh/projects/portfolio-website
 https://roadmap.sh/projects/changelog-component
 <br>
 https://roadmap.sh/projects/testimonial-cards
+<br>
+https://roadmap.sh/projects/pricing-comparison-table
