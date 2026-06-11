@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* Input Row */
+.input-row {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-row input {
+    height: 2rem;
+    width: 14rem;
+    text-align: center;
+    font-size: 1.2em;
+}
+.input-row button {
+    all: unset;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.input-row button img {
+    height: 1.9em;
+    width: 2em;
+    padding: 0px 2px;
+}
+
+/* Calender */
+
+.calendar-header {
+    display: flex;
+    justify-content: center;
+
+    margin:  0em auto 0;
+    
+
+    border: 1px solid black;
+    width: 16.5rem;
+    height: 4em;
+}
+.calendar-header p {
+    margin-top: 10px;
+}
+.calendar-header button {
+    all: unset;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 2em;
+}
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 12px);
+    gap: 25px;
+    position: absolute;
+
+    margin-top: 2.4rem;
+    gap: 25px;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7,12px);
+    justify-content: center;
+    margin:  0em auto 0;
+    gap: 25px;  
+    border: 1px solid black;
+    padding: 1em;
+    width: fit-content;
+}
+.dates span:hover {
+    background: #e0e0e0;
+    cursor: pointer;
+}
