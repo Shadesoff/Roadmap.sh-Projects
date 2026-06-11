@@ -11,3 +11,5 @@ https://roadmap.sh/projects/testimonial-cards
 https://roadmap.sh/projects/pricing-comparison-table
 <br>
 https://roadmap.sh/projects/datepicker-ui
+<br>
+https://roadmap.sh/projects/blog-post-page
