@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav {
+    margin: 20px;
+}
+main {
+  width: 60%; 
+  height: 800px;   
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+a {
+    font-size: 18px;
+    color: rgb(123, 180, 255);
+    margin: 0 20px 0 0;
+}
+a:hover {
+    color: rgb(0, 110, 255);
+}
+
+hr {
+    width: 70%;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset h2 {
+    font-size: 40px;
+}
+
+fieldset p {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+div {
+    margin-top: 10px;
+}
+label {
+    font-size: 24px;
+}
+#email {
+    margin-right: 50px;
+}
+
+.contact-info {
+    width: 300px;
+    height: 35px;
+    margin: 10px 0 0 180px;
+}
+
+label select {
+    height: 35px;
+    width: 300px;
+    font-size: 18px;
+    margin-left: 205px;
+    margin-top: 10px;
+}
+
+
+
+#subject {
+    display: block;
+}
+
+#message {
+position: absolute;
+margin-top: 30px;
+}
+textarea {
+    margin: 30px 0 0 300px;
+}
+
+legend {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.source {
+    display: block;
+    margin: 20px 0px 0px 20px;
+    font-size: 20px;
+}
+#updates {
+    display: block;
+    margin: 20px 0 0 40px;
+}
+#updates input {
+    height: 20px;
+    width: 20px;
+}
+button {
+    display: block;
+    margin: 40px 0 0 40px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+
+}
+footer {
+    margin-top: 20px;
+}
+footer p {
+    font-size: 20px;
+    margin: 10px;
+}
