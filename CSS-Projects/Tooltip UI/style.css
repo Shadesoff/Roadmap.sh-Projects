@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    font-size: 24px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 200px;
+}
+a {
+    margin: 40px;
+    text-decoration: none;
+    color: black;
+}
+#project {
+    position: relative;
+}
+div {
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    top: -60px;
+    right: -110px;
+    border-radius: 10px;
+    
+}
+div {
+    display: none;
+}
+
+#project:hover div {
+    display: block;
+}
+
+
